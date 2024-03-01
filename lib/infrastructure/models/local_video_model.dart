@@ -1,6 +1,7 @@
 import 'package:tiktok/domain/entities/video_post.dart';
 
-class LocalVideoModel{
+class LocalVideoModel {
+   
   final String name;
   final String videoUrl;
   final int likes;
@@ -19,14 +20,12 @@ class LocalVideoModel{
       likes: json['likes'] ?? 0,
       views: json['views'] ?? 0,
     );
-    
-  VideoPost toVideoPostEntity(){
-    return VideoPost(
-      caption: name,
-      videoUrl: videoUrl,
-      likes: likes,
-      views: views
-    );
-  }
+
+  VideoPost toVideoPostEntity() => VideoPost(
+    caption: name,
+    videoUrl: videoUrl,
+    likes: likes,
+    views: views
+  );
 
 }
