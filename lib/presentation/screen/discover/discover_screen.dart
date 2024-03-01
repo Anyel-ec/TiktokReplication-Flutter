@@ -11,7 +11,7 @@ class DiscoverScreen extends StatelessWidget {
       body: 
       Center(
         child: 
-        Text('Discover Screen'),
+        Text('Discover Screen 1 2 3 4 5'),
       )
     );
   }
