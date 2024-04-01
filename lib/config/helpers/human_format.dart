@@ -1,14 +1,16 @@
 // importar intl
 import 'package:intl/intl.dart';
 
-class HumanFormat {
-  static String numberFormat(int number) {
-    // Formatear el número
+class HumanFormats {
+
+  static String humanReadbleNumber( double number ) {
+    
     final formatterNumber = NumberFormat.compactCurrency(
-      decimalDigits: 0, // Cantidad de decimales
-      symbol: '' // Símbolo de la moneda
-    ).format(number);
+      decimalDigits: 0,
+      symbol: '',
+    ).format( number );
 
     return formatterNumber;
   }
+
 }

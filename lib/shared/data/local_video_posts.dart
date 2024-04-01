@@ -1,6 +1,6 @@
 List<Map<String, dynamic>> videoPosts = [ // List<Map<String, dynamic>> es una lista de mapas con claves de tipo String y valores de tipo dynamic
   {
-    'name': 'Subiendo escaleras automáticas', // nombre del video
+    'name': 'Anyel EC', // nombre del video
     'videoUrl': 'assets/videos/1.mp4', // url del video
     'likes': 23230, // cantidad de likes
     'views': 1523, // cantidad de vistas
@@ -42,7 +42,7 @@ List<Map<String, dynamic>> videoPosts = [ // List<Map<String, dynamic>> es una l
     'views': 33032,
   },
   {
-    'name': '¿Ya llegamos a la India?... umm si',
+    'name': 'Anyel EC 2 - Cyber Dev Matrix',
     'videoUrl': 'assets/videos/8.mp4',
     'likes': 342,
     'views': 3332,

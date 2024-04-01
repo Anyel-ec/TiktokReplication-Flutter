@@ -1,5 +1,5 @@
 # ocultar todos los videos de assets/videos
-assets/video/*.mp4
+assets/videos/*.mp4
 
 # Miscellaneous
 *.class
