@@ -6,9 +6,9 @@
 
 ## Result
 ### Video 1
-![Alt text](docs/1.PNG) 
+![Alt text](docs/1.png) 
 ### Video 2
-![Alt text](docs/2.PNG) 
+![Alt text](docs/2.png) 
 
 ### Description
 This project is a basic replica of the TikTok application developed in Flutter. It includes screens for discovering videos, full-screen video playback, and interactive buttons for reactions and viewing metrics.
