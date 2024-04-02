@@ -1,17 +1,19 @@
 ## TikTok Replica in Flutter
 
+### Description
+This project is a basic replica of the TikTok application developed in Flutter. It includes screens for discovering videos, full-screen video playback, and interactive buttons for reactions and viewing metrics.
+
 ## **Select Language:**
 - [Español (Spanish)](README-es.md)
 - [English](README.md)
 
 ## Result
 ### Video 1
-![Alt text](docs/1.PNG) 
+![Alt text](docs/1.png) 
 ### Video 2
-![Alt text](docs/2.PNG) 
+![Alt text](docs/2.png) 
 
-### Description
-This project is a basic replica of the TikTok application developed in Flutter. It includes screens for discovering videos, full-screen video playback, and interactive buttons for reactions and viewing metrics.
+
 
 ### Project Structure
 The project is structured into various files and folders:
