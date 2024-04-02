@@ -12,13 +12,14 @@ class LocalVideoDataSource implements VideoPostDataSource{
 
   @override
   Future<List<VideoPost>> getTredingVideosByPage(int page) async {
-    await Future.delayed(const Duration(seconds: 2));
+    await Future.delayed(const Duration(seconds: 2)); // simular un delay de 2 segundos
+    
     
      final List<VideoPost> newVideos = videoPosts.map( 
       ( video ) => LocalVideoModel.fromJson(video).toVideoPostEntity()
     ).toList();
 
-
+    
     return newVideos;
 
   }

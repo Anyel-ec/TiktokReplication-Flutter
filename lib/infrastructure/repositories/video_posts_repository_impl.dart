@@ -7,8 +7,11 @@ import 'package:tiktok/domain/repositories/video_posts_repository.dart';
 
 class VideoPostsRepositoryImpl implements VideoPostRepository {
 
-  final VideoPostDataSource videosDatasource;
-  VideoPostsRepositoryImpl({required this.videosDatasource});
+  final VideoPostDataSource videosDatasource; // origen de datos
+  VideoPostsRepositoryImpl({
+    required this.videosDatasource // required para que sea obligatorio
+    }); // constructor
+
   @override
   Future<List<VideoPost>> getTredingVideosByPage(int page) {
     return videosDatasource.getTredingVideosByPage(page);
